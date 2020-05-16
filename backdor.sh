@@ -3,8 +3,9 @@
 clear
 termux-setup-storage
 apt install figlet -y
+echo -e "\e[1;34m"
 figlet -f standard "LimitQ"
-echo ""
+echo -e "\e[1;30m"
 read -p "Masukan alamat ip : " pi
 read -p "Masukan port yang di pilih: " pil
 read -p "Masukan nama aplikasi tanpa (.apk) : " pili
