@@ -3,6 +3,7 @@
 clear
 termux-setup-storage
 apt install figlet -y
+clear
 echo -e "\e[1;34m"
 figlet -f standard "LimitQ"
 echo -e "\e[1;30m"
